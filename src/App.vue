@@ -3,7 +3,7 @@ import { RouterView } from "vue-router";
 import Navbar from "./components/Navbar.vue";
 </script>
 
-<template>
+<template class="app">
   <!-- <header>
     <div>
       <nav>
@@ -18,4 +18,9 @@ import Navbar from "./components/Navbar.vue";
   <RouterView />
 </template>
 
-<style scoped></style>
+<style>
+.app {
+  width: 1230px;
+  margin: 0 102px;
+}
+</style>
