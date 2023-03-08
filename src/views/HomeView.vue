@@ -66,8 +66,43 @@ const cards = [
       logístico mais eficiente e ágil.
     </p>
 
+    <!-- Card Container -->
     <CardItems :cards="cards" class="m-auto py-2" />
   </article>
+
+  <section class="section d-flex py-3 m-auto">
+    <!-- Container de Textos -->
+    <div class="text_container m-auto col-6">
+      <h1 class="py-5">
+        Fundada em 1986, <br />
+        orgulhosamente oferecendo soluções <br />
+        ágeis e inovadoras no mercado de pallets!
+      </h1>
+
+      <div class="col-8">
+        <p class="text-right">
+          Sempre prezando pelo meio ambiente e <br />
+          sustentabilidade. Nossos pallets são feitos com <br />
+          materiais renováveis e duráveis, garantindo a <br />
+          qualidade e resistência necessárias para sua <br />
+          operação.
+        </p>
+        <br />
+        <p class="text-right pb-4">
+          Atendemos as principais empresas do mercado, entregando <br />
+          pallets que combinam eficiência logística <br />
+          com responsabilidade ambiental.
+        </p>
+
+        <Button to="/about" nome="Saiba Mais" class="ml-auto" />
+      </div>
+    </div>
+
+    <!-- Imagem Container -->
+    <div class="image_container">
+      <img src="/images/pallet_lote.png" alt="Lote de paletes" />
+    </div>
+  </section>
 </template>
 
 <style scoped>
@@ -78,5 +113,23 @@ const cards = [
 
   padding: 180px 100px 60px;
   margin: 0 auto;
+}
+
+.section {
+  background-color: #20284c;
+  padding-left: 430px;
+}
+
+.image_container {
+  position: relative;
+  top: 140px;
+  right: 330px;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section p {
+  color: #fff;
 }
 </style>

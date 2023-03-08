@@ -29,6 +29,9 @@ export default defineComponent({
 <style scoped>
 .button {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: white;
   text-decoration: none;
 
@@ -36,7 +39,9 @@ export default defineComponent({
   border: 1px solid #f2eacf;
   border-radius: 5px;
 
-  padding: 20px 100px;
+  width: 300px;
+
+  height: 75px;
   transition: 0.8s;
 }
 

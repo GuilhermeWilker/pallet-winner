@@ -1,6 +1,6 @@
 <template>
   <header class="fixed-top">
-    <ul class="nav justify-content-between">
+    <ul class="nav justify-content-between m-auto col-11">
       <!-- Navbar container [Produtos, Faça seu pedido] -->
       <ul class="nav justify-content-between">
         <li class="nav-item">
@@ -10,7 +10,7 @@
         </li>
 
         <li class="nav-item">
-          <RouterLink to="/" class="nav-link">
+          <RouterLink to="/produto" class="nav-link">
             <strong>FAÇA SEU PEDIDO</strong>
           </RouterLink>
         </li>
