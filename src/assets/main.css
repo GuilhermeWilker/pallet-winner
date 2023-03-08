@@ -1,5 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 #app {
   font-family: "Ubuntu", sans-serif;
+}
+
+.animate_up_down {
+  position: relative;
+  animation: moveUpDown 0.8s infinite alternate ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes moveUpDown {
+  from {
+    top: 0;
+  }
+  to {
+    top: 20px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Anton", sans-serif;
+  color: #20284c;
+  line-height: 55px;
+}
+
+p {
+  color: #20284c;
+  font-size: 15px;
 }

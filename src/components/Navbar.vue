@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="fixed-top">
     <ul class="nav justify-content-between">
       <!-- Navbar container [Produtos, Faça seu pedido] -->
       <ul class="nav justify-content-between">
@@ -37,9 +37,14 @@ import { RouterLink } from "vue-router";
 
 <style scoped>
 header {
-  padding: 0 100px;
-  margin: 35px auto;
+  padding: 20px 100px;
+  margin: 0 auto;
   width: 100%;
+
+  z-index: 100;
+
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 .nav-link {
@@ -49,9 +54,5 @@ header {
 
 .nav-link:hover {
   color: #20284c;
-}
-
-.logo {
-  margin: 0 auto;
 }
 </style>
