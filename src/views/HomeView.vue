@@ -70,6 +70,7 @@ const cards = [
     <CardItems :cards="cards" class="m-auto py-2" />
   </article>
 
+  <!-- Seção About -->
   <section class="section d-flex py-3 m-auto">
     <!-- Container de Textos -->
     <div class="text_container m-auto col-6">

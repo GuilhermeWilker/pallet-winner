@@ -12,6 +12,10 @@
   transition-timing-function: ease-in-out;
 }
 
+.section_padding_left {
+  padding-left: 430px;
+}
+
 @keyframes moveUpDown {
   from {
     top: 0;
