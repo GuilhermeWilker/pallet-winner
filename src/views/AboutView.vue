@@ -193,6 +193,12 @@ import Button from "../components/Button.vue";
   }
 }
 
+@media (max-width: 1366px) {
+  .image_container {
+    right: 100px;
+  }
+}
+
 @media (max-width: 1024px) {
   /* Last Section*/
   .image_container {

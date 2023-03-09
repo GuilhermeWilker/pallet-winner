@@ -31,7 +31,7 @@ Site desenvolvido para o Teste Técnico da **Petikos**.
 
 - [x] Subir uma versão em algum host.
 
-[Link do projeto](https://guilhermewilker.github.io/pallet-winner/)
+[Link do projeto](https://snazzy-biscochitos-b850d7.netlify.app/)
 
 ---
 

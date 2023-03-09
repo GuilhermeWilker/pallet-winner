@@ -143,6 +143,12 @@ export default {
   }
 }
 
+@media (max-width: 1366px) {
+  .box_content {
+    height: 660px;
+  }
+}
+
 @media (max-width: 1024px) {
   .box_content {
     height: 640px;

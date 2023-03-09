@@ -149,6 +149,12 @@ const cards = [
   }
 }
 
+@media (max-width: 1366px) {
+  .image_container {
+    right: 30px;
+  }
+}
+
 @media (max-width: 1024px) {
   /* HERO */
   .home h2 {

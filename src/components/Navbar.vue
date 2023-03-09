@@ -74,6 +74,12 @@ header {
   }
 }
 
+@media (max-width: 1366px) {
+  .navbar-nav {
+    gap: 350px;
+  }
+}
+
 @media (max-width: 1024px) {
   .navbar-nav {
     gap: 190px;
