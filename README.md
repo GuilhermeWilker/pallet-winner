@@ -31,6 +31,8 @@ Site desenvolvido para o Teste Técnico da **Petikos**.
 
 - [x] Subir uma versão em algum host.
 
+[Link do projeto](https://guilhermewilker.github.io/pallet-winner/)
+
 ---
 
 ## Project Setup
