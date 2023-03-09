@@ -39,14 +39,13 @@ import Button from "../components/Button.vue";
   <!-- Sobre a Inovação -->
   <section class="section_padding_left d-flex flex-column text-justify py-5">
     <!-- Container de Textos -->
-    <div class="text_container m-auto">
-      <h1 class="py-5">
-        Somos uma empresa inovadora <br />
-        que investe em novas tecnologias para trazer <br />
+    <div class="text_container_second_section m-auto">
+      <h1 class="py-5 col-7 h_second_section">
+        Somos uma empresa inovadora que investe em novas tecnologias para trazer
         os melhores produtos aos nossos clientes.
       </h1>
 
-      <div class="col-6">
+      <div class="col-6 p_second_section">
         <p>
           Em destaque, nosso <strong>ECO pallet</strong>, feito com plástico
           reciclado de alta resistência, suportando mais peso que os pallets
@@ -73,7 +72,7 @@ import Button from "../components/Button.vue";
   <section class="section_entrega section_padding_left">
     <!-- Container de Textos -->
 
-    <div class="m-auto col-8 pl-5">
+    <div class="m-auto col-8 pl-5 p_last_section">
       <p class="text-center">
         Com uma logística bem estruturada, a empresa se preocupa em oferecer
         agilidade e <br />
@@ -88,7 +87,7 @@ import Button from "../components/Button.vue";
       </p>
     </div>
 
-    <div class="text_container d-flex">
+    <div class="text_container d-flex h_last_container">
       <h1 class="py-5">
         Reconhecida por nossa eficiência na entrega, <br />
         garantindo a chegada dos pallets em tempo <br />
@@ -146,5 +145,259 @@ import Button from "../components/Button.vue";
   position: relative;
   top: 140px;
   right: 330px;
+}
+
+@media (max-width: 1440px) {
+  .image_container {
+    position: relative;
+
+    right: 70px;
+  }
+
+  .section {
+    padding-left: 0;
+  }
+
+  .text_container {
+    padding-left: 180px;
+  }
+  .text_container h1 {
+    width: 700px;
+  }
+
+  .text_container p {
+    width: 341px;
+  }
+
+  .section_padding_left {
+    padding-left: 0px !important;
+  }
+  .col-7 {
+    width: 1250px !important;
+  }
+
+  .p_second_section p {
+    width: 500px !important;
+  }
+
+  .image_container_entrega {
+    right: 15px;
+  }
+
+  .p_last_section p {
+    padding-left: 30px;
+  }
+
+  .h_last_container h1 {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Last Section*/
+  .image_container {
+    position: relative;
+
+    left: -40px;
+  }
+
+  .image_container img {
+    width: 550px;
+  }
+
+  .section {
+    padding-left: 0;
+  }
+
+  .text_container {
+    padding-left: 75px;
+  }
+  .text_container h1 {
+    font-size: 30px;
+    width: 700px;
+  }
+
+  .text_container p {
+    width: 341px;
+  }
+
+  /* Segunda Section*/
+  .section_padding_left {
+    padding-left: 0px !important;
+  }
+
+  .text_container_second_section {
+    padding-left: 75px;
+    width: 100%;
+  }
+
+  .h_second_section {
+    width: 800px !important;
+    font-size: 30px;
+  }
+
+  .p_second_section p {
+    width: 500px !important;
+  }
+
+  /* Ultima Section*/
+  .image_container_entrega {
+    right: 200px;
+  }
+
+  .p_last_section p {
+    padding-left: 30px;
+  }
+
+  .h_last_container h1 {
+    width: 590px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Last Section*/
+  .image_container {
+    top: 160px;
+    left: 45px;
+  }
+  .image_container img {
+    width: 540px;
+  }
+
+  .section {
+    padding-left: 0;
+    overflow: hidden;
+  }
+
+  .text_container {
+    padding-left: 75px;
+  }
+  .text_container h1 {
+    margin-left: -10px !important;
+    font-size: 30px;
+    width: 700px;
+  }
+
+  .text_container p {
+    width: 341px;
+    margin-left: -10px !important;
+  }
+
+  .button_about {
+    margin-right: 0px;
+  }
+
+  /* Segunda Section*/
+  .section_padding_left {
+    padding-left: 0px !important;
+  }
+
+  .text_container_second_section {
+    padding-left: 80px;
+    width: 100%;
+  }
+
+  .h_second_section {
+    width: 100% !important;
+    font-size: 30px;
+
+    padding: 0;
+  }
+
+  .p_second_section p {
+    width: 500px !important;
+  }
+
+  /* Ultima Section*/
+  .image_container_entrega {
+    right: 200px;
+  }
+
+  .p_last_section p {
+    padding-left: 140px;
+    text-align: justify !important;
+  }
+
+  .h_last_container h1 {
+    font-size: 25px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Last Section*/
+
+  .image_container {
+    display: none;
+  }
+
+  .section {
+    padding-left: 0;
+    overflow-x: hidden;
+  }
+
+  .text_container {
+    padding-left: 0px;
+  }
+  .text_container h1 {
+    margin-left: -145px !important;
+    font-size: 22px;
+
+    text-align: center;
+    width: 500px;
+  }
+
+  .text_container p {
+    width: 341px;
+    margin-left: -80px !important;
+
+    text-align: justify !important;
+  }
+  /* Segunda Section*/
+  .section_padding_left {
+    padding-left: 0px !important;
+  }
+
+  .text_container_second_section {
+    padding-left: 80px;
+    width: 100%;
+
+    padding-bottom: 320px;
+  }
+
+  .h_second_section {
+    width: 100% !important;
+    font-size: 22px;
+
+    text-align: justify;
+    padding: 0;
+  }
+
+  .p_second_section p {
+    margin-left: -50px;
+    width: 340px !important;
+
+    text-align: justify;
+  }
+
+  /* Ultima Section*/
+  .image_container_entrega {
+    display: none;
+  }
+
+  .p_last_section p {
+    padding-left: 0;
+    text-align: justify !important;
+    margin-left: -70px;
+    width: 340px !important;
+  }
+
+  .p_last_section p:last-child {
+    padding-bottom: 15px;
+  }
+
+  .h_last_container h1 {
+    display: none;
+  }
 }
 </style>

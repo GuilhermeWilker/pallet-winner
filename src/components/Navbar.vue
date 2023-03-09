@@ -1,33 +1,39 @@
 <template>
   <header class="fixed-top">
-    <ul class="nav justify-content-between m-auto col-11">
-      <!-- Navbar container [Produtos, Faça seu pedido] -->
-      <ul class="nav justify-content-between">
-        <li class="nav-item">
-          <RouterLink to="/" class="nav-link">
-            <strong>PRODUTOS</strong>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado"
+        aria-expanded="false"
+        aria-label="Alterna navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav">
+          <!-- Link Faça seu pedido -->
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/produto"
+              >FAÇA SEU PEDIDO</RouterLink
+            >
+          </li>
+
+          <!-- Logo do site -->
+          <RouterLink class="navbar-brand" to="/">
+            <img src="/images/logo.png" alt="Logo-marca Pallet Winner" />
           </RouterLink>
-        </li>
 
-        <li class="nav-item">
-          <RouterLink to="/produto" class="nav-link">
-            <strong>FAÇA SEU PEDIDO</strong>
-          </RouterLink>
-        </li>
-      </ul>
-
-      <!-- Logo -->
-      <li class="nav-item logo">
-        <img src="/images/logo.png" alt="Logo-marca Pallet Winner" />
-      </li>
-
-      <!-- About us -->
-      <li class="nav-item">
-        <RouterLink to="/about" class="nav-link">
-          <strong>ABOUT US</strong>
-        </RouterLink>
-      </li>
-    </ul>
+          <!-- Link Sobre nós -->
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/about">ABOUT US</RouterLink>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 </template>
 
@@ -37,14 +43,9 @@ import { RouterLink } from "vue-router";
 
 <style scoped>
 header {
-  padding: 20px 100px;
+  padding: 0px;
   margin: 0 auto;
   width: 100%;
-
-  z-index: 100;
-
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
 }
 
 .nav-link {
@@ -54,5 +55,52 @@ header {
 
 .nav-link:hover {
   color: #20284c;
+}
+
+.navbar-nav {
+  padding: 0px 150px;
+  display: flex;
+  align-items: center;
+
+  height: 80px;
+
+  width: 100%;
+  gap: 700px;
+}
+
+@media (max-width: 1440px) {
+  .navbar-nav {
+    gap: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar-nav {
+    gap: 190px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0px;
+  }
+
+  .navbar-nav {
+    padding: 20px 15px;
+    gap: 20px;
+
+    height: 250px;
+  }
+
+  .navbar-toggler {
+    margin: 12px 30px;
+    padding: 9px;
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    padding: 0px;
+  }
 }
 </style>

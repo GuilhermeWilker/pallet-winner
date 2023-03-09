@@ -59,4 +59,18 @@ export default defineComponent({
 .card-title {
   gap: 30%;
 }
+
+@media (max-width: 1024px) {
+  .card-container {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+  }
+
+  .card {
+    height: 180px;
+  }
+}
 </style>

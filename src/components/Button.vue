@@ -49,4 +49,12 @@ export default defineComponent({
   background-color: #20284c;
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .button {
+    width: 250px;
+
+    height: 75px;
+  }
+}
 </style>

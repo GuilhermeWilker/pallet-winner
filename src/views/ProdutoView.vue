@@ -9,7 +9,7 @@
 
       <p class="text-center pt-3">
         Antes de tudo preencha o formulário abaixo e receba o seu <br />
-        super pallet novinho em dentro de 4 dias á 13 dias!
+        super pallet novinho em dentro de 1 á 3 horas!
       </p>
     </article>
 
