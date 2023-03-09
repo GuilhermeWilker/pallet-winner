@@ -1,28 +1,53 @@
-# pallet-winner
+# ![Logo da empresa](/public/images/logo.png "Pallet Winner") Pallet Winner
 
-This template should help get you started developing with Vue 3 in Vite.
+---
 
-## Recommended IDE Setup
+Site desenvolvido para o Teste Técnico da **Petikos**.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+**_Página inicial do site_**
+![Home do Site](/public/readme/home.png "Home do Site")
 
-## Customize configuration
+**_Página de pedidos_**
+![Home do Site](/public/readme/pedido.png "Home do Site")
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+**_Página Sobre da empresa_**
+![Home do Site](/public/readme/home.png "Home do Site")
+
+---
+
+## Tendo como Pré-requisitos de projeto :
+
+- [x] Todos os componentes apresentados devem ter a aparência responsiva.
+- [x] É obrigatório utilização do framework Bootstrap.
+- [x] As páginas devem ser navegáveis entre si.
+- [x] Usar Vue.js nas paginas de front
+
+### O que a empresa espera:
+
+- [x] Padrões de Projeto, UX, e boas práticas de programação;
+- [x] Criar uma breve descrição sobre as soluções utilizadas.
+
+### Diferenciais (não obrigatorios).
+
+- [x] Subir uma versão em algum host.
+
+---
 
 ## Project Setup
+
+- Primeiro instale o projeto utilizando o comando abaixo:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+- Compilando o projeto e criando ambiente local para desenvolvimento:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+- Compilando e minificando para Produção:
 
 ```sh
 npm run build
